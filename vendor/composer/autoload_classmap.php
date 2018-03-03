@@ -6,6 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Topic' => $baseDir . '/app/models/Topic.php',
-    'User' => $baseDir . '/app/models/User.php',
+    'CardinalCommunicate\\Classes\\User' => $baseDir . '/app/CardinalCommunicate/Classes/User.php',
+    'CardinalCommunicate\\Filters\\AuthFilter' => $baseDir . '/app/CardinalCommunicate/Filters/AuthFilter.php',
 );
